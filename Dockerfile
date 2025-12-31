@@ -1,17 +1,32 @@
 FROM alpine:3.20
 
 # ====== Base system & PHP 8.3 ======
-# إضافة مستودع community لضمان وجود php83
 RUN apk update && apk add --no-cache \
-    bash sudo shadow coreutils procps curl ca-certificates git nano vim nginx supervisor ttyd \
-    libreoffice libreoffice-writer libreoffice-calc libreoffice-impress libreoffice-common libreoffice-lang-en \
+    bash \
+    sudo \
+    shadow \
+    coreutils \
+    procps \
+    curl \
+    ca-certificates \
+    git \
+    nano \
+    vim \
+    nginx \
+    supervisor \
+    ttyd \
+    libreoffice \
+    libreoffice-writer \
+    libreoffice-calc \
+    libreoffice-impress \
+    libreoffice-common \
+    libreoffice-lang-en \
     php83 \
     php83-fpm \
     php83-cli \
     php83-common \
     php83-curl \
     php83-mbstring \
-    php83-json \
     php83-openssl \
     php83-pdo \
     php83-pdo_mysql \
