@@ -1,0 +1,18 @@
+{
+    "admin": {
+        "password": "$2y$10$\/K.hjNr84lLNDt8fTXjoI.DBp6PpeyoJ.mGwrrLuCZfAwfSAGqhOW",
+        "role": "admin",
+        "created": "2025-12-27 21:21:30"
+    },
+    "user": {
+        "password": "$2y$10$coC0hQwc5QorWLU9g.Ynp.mmwtRdn3DEkZwWQqMPTZ9ozsbzJj6XK",
+        "role": "user",
+        "created": "2025-12-27 21:21:30",
+        "updated": "2025-12-27 21:22:10"
+    },
+    "turki": {
+        "password": "$2y$10$qOkOKTTlUbVbVOc5nTfoyOLasbN3YqqqJyhLaevjXtFDDi3Wjn8jm",
+        "role": "admin",
+        "created": "2025-12-28 17:02:52"
+    }
+}
